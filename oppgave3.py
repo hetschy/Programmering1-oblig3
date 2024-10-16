@@ -1,3 +1,12 @@
-# Definer en funksjon som heter print_list().
-# Denne funksjonen skal ta i mot en liste som parameter, og printe ut hvert element i denne listen en etter en.
-# Lag deretter kort liste med dine 3 favorittmatretter, og kall funksjonen din med denne listen som parameter.
+"""Oppgave 3 - Funksjon - Printe liste"""
+
+
+def print_list(liste: list):
+    """Funksjon: printe ut hvert element i liste gitt som parameter"""
+    for element in liste:
+        print(element)
+
+
+mat = ["Skirt steak sandwich", "Burritos", "Biff med fløtegratinerte poteter"]
+
+print_list(mat)
